@@ -10,7 +10,7 @@ A bot that fetches information from PCPartPicker directly from Discord. It is cu
 - Can be self hosted using config file
 
 # Self hosting
-To self host this bot, you will need to have Go 1.17 installed to compile the source code, access to a MongoDB instance and a `config.toml` file in the same directory as the `main.go` file structured as follows:
+To self host this bot, you will need to have Go 1.17 installed to compile the source code, access to a MongoDB instance and a `config.toml` file in the same directory as the executable structured as follows:
 ```toml
 [bot]
 token = "some token"
