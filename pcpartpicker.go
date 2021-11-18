@@ -539,7 +539,7 @@ func processPCPP(s *discordgo.Session, m *discordgo.MessageCreate) {
 	incRequests(m.GuildID)
 	partList, err := scraper.GetPartList(URL)
 	if err != nil {
-		fmt.Println(err)
+		log.Println(err)
 		return
 	}
 

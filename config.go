@@ -26,7 +26,7 @@ type mongoConfig struct {
 type pcpartpickerConfig struct {
 	Affiliates []affiliate
 	// unused... for now
-	Proxies   map[string]proxy
+	Proxies map[string]proxy
 }
 
 type affiliate struct {

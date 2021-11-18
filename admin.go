@@ -10,11 +10,11 @@ import (
 func init() {
 	router.addCommand(
 		command{
-			name: "cleardb",
+			name:        "cleardb",
 			description: "Clears all items in the database for a specific collection.",
-			args: []string{"<colName>"},
-			handler: clearDb,
-			aliases: []string{"dbclear"},
+			args:        []string{"<colName>"},
+			handler:     clearDb,
+			aliases:     []string{"dbclear"},
 		},
 	)
 }

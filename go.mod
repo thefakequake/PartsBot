@@ -8,14 +8,14 @@ require (
 	github.com/dlclark/regexp2 v1.4.0
 	github.com/gocolly/colly v1.2.0
 	github.com/gorilla/websocket v1.4.2 // indirect
-	github.com/quakecodes/gopartpicker v1.0.12
+	github.com/quakecodes/gopartpicker v1.0.14
 	go.mongodb.org/mongo-driver v1.7.3
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
 	golang.org/x/sys v0.0.0-20211015200801-69063c4bb744 // indirect
 )
 
 require (
-	github.com/PuerkitoBio/goquery v1.7.1 // indirect
+	github.com/PuerkitoBio/goquery v1.8.0 // indirect
 	github.com/andybalholm/cascadia v1.3.1 // indirect
 	github.com/antchfx/htmlquery v1.2.4 // indirect
 	github.com/antchfx/xmlquery v1.3.8 // indirect
